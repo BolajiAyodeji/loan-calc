@@ -5,6 +5,7 @@ html {
 }
 body {
   font-family: 'Roboto Mono', monospace;
+  background-color:#f5365c;
 }
 #loading, #results{
   display: none;

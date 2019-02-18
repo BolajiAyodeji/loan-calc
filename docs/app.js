@@ -7,7 +7,7 @@ submitForm.addEventListener('submit', function(e) {
   // Show loader
   document.getElementById('loading').style.display = 'block';
 
-  setTimeout(calcResult, 1000);
+  setTimeout(calcResult, 300);
 
   e.preventDefault();
 });
@@ -42,7 +42,7 @@ function calcResult() {
   document.getElementById('loading').style.display = 'none';
   }
   else {
-    showError('Oops! please check your numbers');
+    showError('Please check your numbers');
   }
 }
 
