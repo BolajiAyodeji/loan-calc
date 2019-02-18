@@ -26,7 +26,7 @@ function calcResult(e) {
     totalInterest.value = ((monthly * calcPay) - principle).toFixed(2);
   }
   else {
-    showError('Please check your numbers');
+    showError('Oops! please check your numbers');
   }
   e.preventDefault();
 }
