@@ -42,7 +42,7 @@ function calcResult() {
   document.getElementById('loading').style.display = 'none';
   }
   else {
-    showError('Invalid inputs, try again!');
+    showError('Incomplete inputs, try again!');
   }
 }
 
